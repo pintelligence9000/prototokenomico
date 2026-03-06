@@ -1,14 +1,19 @@
 # PROTOTOKENOMICO — Project Backlog
 
-## CYCLE 0: HIGH-SIGNAL PRIZE STAKING & FRONTEND (MVP)
-- [ ] **TKT-000a: BRAINSTORM:** Define the "Prize-Based Staking" yield & distribution mechanism.
-- [ ] **TKT-000b: RESEARCH:** Lossless lottery models vs. PoolTogether-style prize pools on Avalanche.
-- [ ] **TKT-000c: PLAN:** Technical Spec: Staking Vault + Randomness Source (Chainlink VRF vs. local).
-- [ ] **TKT-000d: DEV:** Solidity Implementation (Prize Vault).
-- [ ] **TKT-000e: DEV:** MVP Frontend (Vite + Tailwind + Wagmi) for Prize Dashboard.
-- [ ] **TKT-000f: AUDIT:** Math/Logic check for prize distribution fairness.
+## CYCLE 0: DEFI SUITE FRONTEND (The Hub)
+- [ ] **TKT-000a: BRAINSTORM:** UX flow for unified DeFi tool suite (Staking, Launchpad, TBA Wallet).
+- [ ] **TKT-000b: PLAN:** UI/UX Spec: Wireframes, "Ruthless" aesthetic, & Web3 connection layer.
+- [ ] **TKT-000c: DEV:** Frontend Implementation (Next.js/React + Tailwind + Wagmi).
+- [ ] **TKT-000d: AUDIT:** Performance check & wallet connection stability.
 
-## CYCLE 1: THE BOT-PROOF LAUNCHER (Anti-MEV/Bot Protection)
+## CYCLE 1: HIGH-SIGNAL PRIZE STAKING (Solidty Logic)
+- [ ] **TKT-001a: BRAINSTORM:** Define the "Prize-Based Staking" yield & distribution mechanism.
+- [ ] **TKT-001b: RESEARCH:** Lossless lottery models vs. PoolTogether-style prize pools on Avalanche.
+- [ ] **TKT-001c: PLAN:** Technical Spec: Staking Vault + Randomness Source (Chainlink VRF vs. local).
+- [ ] **TKT-001d: DEV:** Solidity Implementation (Prize Vault).
+- [ ] **TKT-001e: AUDIT:** Math/Logic check for prize distribution fairness.
+
+## CYCLE 2: THE BOT-PROOF LAUNCHER (Anti-MEV/Bot Protection)
 - [ ] **TKT-001: BRAINSTORM:** Define "Block-Timing Gate" mechanism vs Sniper Bots (Avalanche C-Chain).
 - [ ] **TKT-002: RESEARCH:** Competitive audit of bot-protection taxes (Tax-Decay, Block-Delta).
 - [ ] **TKT-003: PLAN:** Technical Spec: Solidity logic for Dynamic Tax & Max-TX-per-Block.
